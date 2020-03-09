@@ -1,0 +1,8 @@
+21602X78	testPassword1	ID has non digit character
+31602986	testPassword2	ID begins with 3, violating format 21X0XXXX, where X in range 0-9
+22602986	testPassword3	ID's second character is 2, violating format 21X0XXXX, where X in range 0-9
+21692986	testPassword4	ID's fourth character is 2, violating format 21X0XXXX, where X in range 0-9
+216029869	testPassword5	ID has more than 8 digits
+2160298		testPassword6	ID has less than 8 digits
+21602986	testPassword	Password does not have any digits in it
+21602986	abc4567	Password has less than 8 characters

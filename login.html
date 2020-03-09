@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>STARS Log In Page</title>
+
+<body style="background-color:#ADD8E6;">
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 90px;
+        }
+
+        div.form-group {
+            display: block;
+            text-align: center;
+        }
+
+        #loginField {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        #passwordField {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        form {
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+    </style>
+    </head>
+
+    <body>
+        <img src="https://w3.bilkent.edu.tr/logo/ing-amblem.png" width='230'>
+        <div class="container">
+            <div class="form-group">
+                <form method="post" action="">
+                    <table>
+                        <tr>
+                            <h5><span class="label label-primary">Bilkent ID</span></h5>
+
+                            <input class="form-control" maxlength="25" id="loginField" type="text" name="login"
+                                required>
+                        </tr>
+                        <tr>
+
+                            <h5> <span class="label label-primary">Password</span></h5>
+                            <input class="form-control" id="passwordField" type="password" name="password" required>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center"><button onclick="validate()" id="submit" class="btn
+                        btn-primary">Submit</button></td>
+
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>
