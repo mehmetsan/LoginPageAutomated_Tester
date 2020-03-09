@@ -26,7 +26,7 @@ for each in file:
 
 
 path = os.getcwd() + "\\login.html"
-driver = webdriver.Chrome("C:\\webdrivers\\chromedriver.exe")
+driver = webdriver.Chrome()
 driver.get(path)
 
 
