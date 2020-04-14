@@ -49,6 +49,6 @@ for each in tasks:
     login = driver.find_element_by_id('submit')
     login.click()
 
-    alert = driver.switch_to_alert()
+    alert = driver.switch_to.alert
     time.sleep(3)
     alert.dismiss()
