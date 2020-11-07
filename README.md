@@ -1,2 +1,2 @@
 # LoginPageAutomated_Tester
-A simple login page tester for Bilkern SRS System imitation
+A simple login page tester for Bilkent SRS System imitation
